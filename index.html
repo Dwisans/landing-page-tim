@@ -1,7 +1,8 @@
 <!doctype html>
 
 <html lang="id">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,36 +10,58 @@
     <title>Tim Kami - Project Landing Page</title>
 
     <link rel="stylesheet" href="style.css" />
-  </head>
+</head>
 
-  <body class="light-theme">
+<body class="light-theme">
     <header class="hero">
-      <div class="hero-content">
-        <h1>Selamat Datang di Landing Page Tim</h1>
+        <div class="hero-content">
+            <h1>Selamat Datang di Landing Page Tim</h1>
 
-        <p>Mengenal anggota tim dan mentor dalam project kolaborasi ini.</p>
+            <p>Mengenal anggota tim dan mentor dalam project kolaborasi ini.</p>
 
-        <button id="btn-theme" class="btn-toggle">Ganti Tema</button>
-      </div>
+            <button id="btn-theme" class="btn-toggle">Ganti Tema</button>
+        </div>
     </header>
 
     <main class="container">
-      <section id="card-container" class="card-grid">
-        <!-- KARTU MENTOR (TEMPLATE) -->
+        <section id="card-container" class="card-grid">
+            <!-- KARTU MENTOR (TEMPLATE) -->
 
-        <article class="card card-mentor">
+            <article class="card card-mentor">
+                <div class="avatar-placeholder">M</div>
+
+                <div class="card-body">
+                    <span class="badge badge-mentor">Pemateri</span>
+
+                    <h3>Dwiky</h3>
+
+                    <p class="role">Lead Developer</p>
+
+                    <p class="bio">
+                        Membimbing jalannya workshop dan pengelolaan repositori tim.
+                    </p>
+                </div>
+            </article>
+
+            <!-- ==================================================== -->
+
+            <!-- AREA PESERTA: SISIPKAN KARTU ANDA DI BAWAH BARIS INI -->
+
+            <!-- ==================================================== -->
+
+    <article class="card card-peserta">
           <div class="avatar-placeholder">M</div>
 
           <div class="card-body">
-            <span class="badge badge-mentor">Pemateri</span>
+            <span class="badge badge-peserta">peserta</span>
 
-            <h3>Dwiky</h3>
+            <h3>Ivan A.</h3>
 
-            <p class="role">Lead Developer</p>
+            <p class="role"> Frontend Developer</p>
+     
 
             <p class="bio">
-              Membimbing jalannya workshop dan pengelolaan repositori tim.
-            </p>
+              Membuat tampilan landing page tim menggunakan HTML, CSS, dan JavaScript.
           </div>
         </article>
         <br>
@@ -62,14 +85,22 @@
             </p>
           </div>
         </article>
+        </article class="card card-peserta">
+        <div class="avatar-placeholder">P</div>
+        <div class="card-body">
+        <span class="badge badge-peserta">Peserta</span>
+        <h3>Isna farida</h3>
+        <p class="role">frontend Developer</p>
+        <p class="bio">cooking.</p>
       
       </section>
     </main>
 
     <footer>
-      <p>&copy; 2025 Project Landing Page Tim. All rights reserved.</p>
+        <p>&copy; 2025 Project Landing Page Tim. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
-  </body>
+</body>
+
 </html>
